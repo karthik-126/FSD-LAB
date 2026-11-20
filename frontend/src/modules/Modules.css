@@ -1,0 +1,66 @@
+
+/* Shared styles for Campus Photography Platform modules */
+
+.module-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+    color: #1f2937;
+}
+
+.module-container h1,
+.module-container h2 {
+    margin-bottom: 16px;
+}
+
+.module-card {
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.module-container input,
+.module-container textarea,
+.module-container select,
+.module-container button {
+    font: inherit;
+}
+
+.module-container input,
+.module-container textarea,
+.module-container select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.module-container button {
+    padding: 12px 18px;
+    color: #ffffff;
+    background: #2563eb;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.module-container button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.module-container button:hover:not(:disabled) {
+    background: #1d4ed8;
+}
+
+.module-message {
+    margin-top: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #eff6ff;
+}
